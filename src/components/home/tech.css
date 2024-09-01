@@ -1,0 +1,49 @@
+#mern-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 1rem; 
+}
+#mern-container > div {
+  width: 3rem;
+  height: 3rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.line {
+  font-size: x-large;
+  color: var(--title-color);
+  font-weight: bold;
+  height: 3rem; 
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.html  { background-image: url(../../assets/icons/html.png); }
+.css   { background-image: url(../../assets/icons/css.png); }
+.js    { background-image: url(../../assets/icons/js.png); }
+.tailwind { background-image: url(../../assets/icons/tailwindcss.png); }
+.react   { background-image: url(../../assets/icons/react.png); }
+.nodejs  { background-image: url(../../assets/icons/nodejs.png); }
+.express { background-image: url(../../assets/icons/express.png); }
+
+@media screen and (max-width: 992px) {
+  #mern-container { gap: .5rem; }
+  #mern-container > div { width: 2rem; height: 2rem; }
+  .line { height: 2rem; margin-right: .5rem; }
+  h2 { font-size: 1rem; }
+}
+
+@media screen and (max-width: 576px) {
+  #mern-container > div { width: 1.5rem; height: 1.5rem; }
+  .line { height: 1.5rem; margin-right: .3rem; }
+  h2 { font-size: .7rem; }
+}
+
+@media screen and (max-width: 350px) {
+  #mern-container > div { width: 1rem; height: 1rem; }
+  .line { height: 1rem; }
+  h2 { font-size: .5rem; }
+}
