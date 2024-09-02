@@ -54,30 +54,32 @@ function Contact() {
                     <div className="contact_info">
                         {/* contact cards */}
                         <div className="contact_card">
-                            <i className="bx bx-mail-send contact_card-icon" id='email'></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--title-color)" width="24px" height="24px" className="contact_card-icon" id='email'><path  d="M20 4H6c-1.103 0-2 .897-2 2v5h2V8l6.4 4.8a1 1 0 0 0 1.2 0L20 8v9h-8v2h8c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2m-7 6.75L6.666 6h12.668z"/><path fill="currentColor" d="M2 12h7v2H2zm2 3h6v2H4zm3 3h4v2H7z"/></svg>
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">tamanshelp@gmail.com</span>
                             <a href="mailto:tamanshelp@gmail.com" className="contact_button">
                                 Write me
-                                <i className="bx bx-right-arrow-alt contact_button-icon" id='email'></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--title-color)" width="24px" height="24px" className="contact_button-icon" id='email'><path d="m11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707l-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
                             </a>
                         </div>
+
+                        {/* second card */}
                         <div className="contact_card">
-                            <i className="uil uil-whatsapp contact_card-icon" id='whatsapp'></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--title-color)" width="24px" height="24px" className="contact_card-icon" id="whatsapp"><path  d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.4-1.7-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.1.1-.3 0-.4-.1-.1-.6-1.3-.8-1.8-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2.9.4 1.4.5.5.2 1 .2 1.6.1.7-.1 1.3-.6 1.7-1.2.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2 5.5 0 9.9-4.4 9.9-9.9.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"></path></svg>
                             <h3 className="contact_card-title">Whatsapp</h3>
                             <span className="contact_card-data">0309-3536319</span>
                             <a href="https://web.whatsapp.com/" className="contact_button">
                                 Write me
-                                <i className="bx bx-right-arrow-alt contact_button-icon" id='whatsapp'></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--title-color)" width="24px" height="24px" className="contact_button-icon" id='whatsapp'><path d="m11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707l-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
                             </a>
                         </div>
                         <div className="contact_card">
-                            <i className="uil uil-facebook-messenger-alt contact_card-icon" id='messenger'></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--title-color)" width="24px" height="24px" className="contact_card-icon" id="messenger"><path  d="M11.991 1a10.614 10.614 0 0 0-11 10.7a10.46 10.46 0 0 0 3.414 7.866l.052 1.69A1.8 1.8 0 0 0 6.256 23a1.8 1.8 0 0 0 .726-.152L8.903 22a12 12 0 0 0 3.088.4a10.615 10.615 0 0 0 11.001-10.7a10.615 10.615 0 0 0-11-10.7m0 19.4a10 10 0 0 1-2.635-.35a1.8 1.8 0 0 0-1.196.092l-1.714.756l-.045-1.493A1.8 1.8 0 0 0 5.8 18.13a8.5 8.5 0 0 1-2.81-6.43a8.66 8.66 0 0 1 9-8.7a8.705 8.705 0 1 1 0 17.4m3.735-11.815l-2.313 2.755l-3.347-2.056a1 1 0 0 0-1.289.21l-3.05 3.636a1 1 0 1 0 1.53 1.285l2.499-2.975l3.347 2.056a1 1 0 0 0 1.289-.21l2.866-3.415a1 1 0 1 0-1.531-1.286"/></svg>
                             <h3 className="contact_card-title">Messenger</h3>
                             <span className="contact_card-data">user.fb123</span>
                             <a href="#" className="contact_button">
                                 Write me
-                                <i className="bx bx-right-arrow-alt contact_button-icon" id='messenger' ></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--title-color)" width="24px" height="24px" className="contact_button-icon" id='messenger'><path d="m11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707l-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
                             </a>
                         </div>
                     </div>

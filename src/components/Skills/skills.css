@@ -30,11 +30,32 @@
     grid-template-columns: 1fr 1fr; 
     gap: 1rem;
 }
-  
-  .skills_data {
-    display: flex;
-    column-gap: 0.5rem;
-  }
+
+.skills_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  position: relative;
+}
+
+.skills_data img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  width: 35px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.skills_data:hover img {
+  opacity: 1; 
+  transform: translateX(-50%) translateY(-30px);
+}
+
 
   .skills.bx-badge-check {
     font-size: 1rem;

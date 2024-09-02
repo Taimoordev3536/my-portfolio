@@ -50,11 +50,20 @@
   margin-bottom: 0.5rem;
 }
 
-.contact_card:hover #email {
-  color: 				#DD5043;
+.contact_card:hover svg#email {
+  fill:#DD5043;
+}
+.contact_card:hover #email{
+  color: #DD5043;
+}
+.contact_card:hover svg#whatsapp {
+  fill:#25D366;
 }
 .contact_card:hover #whatsapp {
   color: 	#25D366;
+}
+.contact_card:hover svg#messenger {
+  fill:#168AFF;
 }
 .contact_card:hover #messenger {
   color: 		#168AFF;
@@ -75,7 +84,7 @@
 }
 
 .contact_button:hover .contact_button-icon {
-  transform: translate(0.25rem);
+  transform: translate(0.30rem);
 }
 
 .contact_form {

@@ -3,17 +3,16 @@
   border: none;
   cursor: pointer;
   font-size: 1.5rem;
-  color: var(--title-color);
+  fill: var(--title-color);
   margin-left: auto;
 }
-.theme-toggle:hover{
+.theme-toggle:hover svg{
   background-color: var(--shadow-color);
   padding: 0rem .33rem;
   border-radius: 50%;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
-  color:	var(--mood-color) ;
+  fill:	var(--mood-color) ;
 }
-
 
 /* Styling for the header */
 .header {
@@ -48,27 +47,40 @@
   }
   
   .nav_link {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: .3s;
+    transition: color 0.3s;
   }
+  
   .nav_icon,
   .nav_close,
   .nav_toggle {
     display: none;
   }
 
-  /* Active Link */
-  .active-link,
-  .nav_link:hover{
-    /* color: var(--title-color-dark); */
-    color: purple;
-    
+
+  .nav_link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0%;
+    background-color: var(--title-color); 
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
   }
+  
+  .nav_link:hover::before,
+  .active-link::before {
+    width: 100%;
+    left: 0;
+  }
+  
 
 .scroll-header{
   box-shadow: 0 -1px 7px var(--shadow-color);
