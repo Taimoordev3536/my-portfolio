@@ -108,7 +108,7 @@ const toggleTab = (index) => {
 
               <div>
                 <h3 className="qualification_title">Frontend Developer (Intern)</h3>
-                <span className="qualification_subtitle">devFor - RYK</span>
+                <span className="qualification_subtitle">devSole - RYK</span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2023
                 </div>

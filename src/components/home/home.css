@@ -22,31 +22,34 @@
   border-radius: 20px;
   box-shadow: var(--shadow-color) -0.5px 1px 8px;
   
-
 }
 
 .home_social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.25rem;
   color: var(--title-color);
   margin: 7px 0;
-  padding: 0rem .33rem;
+  padding: 0.33rem .33rem;
+  z-index: 1;
 }
 
 .home_social-icon:hover {
   color: var(--title-color-dark);
   background-color: #fff;
-  padding: 0rem .33rem;
+  padding: .33rem .33rem;
   border-radius: 50%;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
-.home_social-icon#insta:hover{
-  color: #C13584;
+.home_social-icon#insta:hover svg {
+  fill: #C13584;
 }
-.home_social-icon#linkdin:hover{
-  color: #0077B5;
+.home_social-icon#linkdin:hover svg{
+  fill: #0077B5;
 }
-.home_social-icon#github:hover{
-  color: #010409;
+.home_social-icon#github:hover svg{
+  fill: #010409;
 }
 
 
