@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .theme-toggle {
   background: none;
   border: none;
@@ -125,7 +128,7 @@
     .nav_list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        gap: 1rem;
         }
         
         .nav_icon {
@@ -159,7 +162,7 @@
   /* For small devices */
 @media screen and (max-width: 350px) {
     .nav_list {
-      column-gap: 0;
+      column-gap: 0.5rem;
     }
   }
   
