@@ -1,7 +1,7 @@
 .qualification_container {
-    /* max-width: 768px; */
-    width: 100%;
-  }
+  /* max-width: 768px; */
+  width: 100%;
+}
   
   .qualification_tabs {
     display: flex;
@@ -86,12 +86,16 @@
   /* For medium devices */
   @media screen and (max-width: 768px) {
     .qualification_container {
+      max-width: 768px;
       margin-left: var(--mb-1-5);
       margin-right: var(--mb-1-5);
     }
   }
 
   @media screen and (max-width: 576px) {
+    .qualification_container {
+      max-width: 768px;
+    }
     .qualification_sections {
       grid-template-columns: initial;
     }
@@ -102,6 +106,9 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .qualification_container {
+      max-width: 768px;
+    }
     .qualification_data {
   gap:0.5rem;
     }
