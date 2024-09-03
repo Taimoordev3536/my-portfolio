@@ -1,6 +1,6 @@
 .qualification_container {
   /* max-width: 768px; */
-  width: 100%;
+  max-width: 100%;
 }
   
   .qualification_tabs {
@@ -106,7 +106,7 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
-    .qualification_container {
+     .qualification_container {
       max-width: 768px;
     }
     .qualification_data {
