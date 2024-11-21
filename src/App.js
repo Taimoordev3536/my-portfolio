@@ -32,7 +32,7 @@ function App() {
         <About />
         <Skills/>
         <Qualification/>
-        <Work/>
+        {/* <Work/> */}
         <Contact/>
       </main>
       <Footer/>
